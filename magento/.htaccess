@@ -1,3 +1,4 @@
+RewriteEngine On
 ############################################
 ## uncomment these lines for CGI mode
 ## make sure to specify the correct cgi php binary file name
@@ -120,7 +121,7 @@
 ## you can put here your magento root folder
 ## path relative to web root
 
-    #RewriteBase /magento/
+    RewriteBase /magento/
 
 ############################################
 ## uncomment next line to enable light API calls processing
